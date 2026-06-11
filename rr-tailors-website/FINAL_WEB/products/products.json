@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "name": "Imperial Crimson Bridal",
+        "category": "Exquisite Zardosi\n                            embroidery on rich crimson silk.",
+        "price": "₹1,45,000",
+        "image": "images/bridal/imperial-crimson-bridal.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Imperial Crimson Bridal",
+        "layout": {
+            "colSpan": "lg:col-span-8",
+            "aspectRatio": "aspect-[16/10]",
+            "buttonType": "icon-text",
+            "overlayClasses": "absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-12"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Midnight Onyx",
+        "category": "Signature black-on-black Aari work.",
+        "price": "₹85,000",
+        "image": "images/embroidery/midnight-onyx.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Midnight Onyx",
+        "layout": {
+            "colSpan": "lg:col-span-4",
+            "aspectRatio": "aspect-[3/4]",
+            "buttonType": "full-width",
+            "overlayClasses": "absolute inset-0 bg-black/20 md:bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Velvet Maggam",
+        "category": "24k gold thread & crystals.",
+        "price": "₹12,499",
+        "image": "images/maggam/velvet-maggam.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Velvet Maggam Blouse",
+        "layout": {
+            "colSpan": "lg:col-span-4",
+            "aspectRatio": "aspect-[4/5]",
+            "buttonType": "full-width",
+            "overlayClasses": "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Emerald Aari",
+        "category": "Intricate floral silk patterns.",
+        "price": "₹9,999",
+        "image": "images/embroidery/emerald-aari.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Emerald Floral Aari",
+        "layout": {
+            "colSpan": "lg:col-span-4",
+            "aspectRatio": "aspect-[4/5]",
+            "buttonType": "full-width",
+            "overlayClasses": "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Champagne Twist",
+        "category": "Modern motifs on luxury velvet.",
+        "price": "₹15,499",
+        "image": "images/embroidery/champagne-twist.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Avant-Garde Zardosi",
+        "layout": {
+            "colSpan": "lg:col-span-4",
+            "aspectRatio": "aspect-[4/5]",
+            "buttonType": "full-width",
+            "overlayClasses": "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Artisan Swatches",
+        "category": "Custom Sample",
+        "price": "₹4,500",
+        "image": "images/embroidery/artisan-swatches.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Couture Swatches",
+        "layout": {
+            "colSpan": "lg:col-span-3",
+            "aspectRatio": "aspect-square",
+            "buttonType": "slide-up",
+            "overlayClasses": "absolute bottom-0 left-0 right-0 bg-primary/90 text-on-primary py-2 px-4 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Royal Peacock",
+        "category": "Maggam Work",
+        "price": "₹5,499",
+        "image": "images/maggam/royal-peacock.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Royal Peacock Maggam",
+        "layout": {
+            "colSpan": "lg:col-span-3",
+            "aspectRatio": "aspect-square",
+            "buttonType": "slide-up",
+            "overlayClasses": "absolute bottom-0 left-0 right-0 bg-primary/90 text-on-primary py-2 px-4 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Heritage Zardosi",
+        "category": "Heritage",
+        "price": "₹7,899",
+        "image": "images/embroidery/heritage-zardosi.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Traditional Zardosi",
+        "layout": {
+            "colSpan": "lg:col-span-3",
+            "aspectRatio": "aspect-square",
+            "buttonType": "slide-up",
+            "overlayClasses": "absolute bottom-0 left-0 right-0 bg-primary/90 text-on-primary py-2 px-4 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Lunar Geometric",
+        "category": "Aari Series",
+        "price": "₹6,499",
+        "image": "images/embroidery/lunar-geometric.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Lunar Silver Aari",
+        "layout": {
+            "colSpan": "lg:col-span-3",
+            "aspectRatio": "aspect-square",
+            "buttonType": "slide-up",
+            "overlayClasses": "absolute bottom-0 left-0 right-0 bg-primary/90 text-on-primary py-2 px-4 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Ethereal Bridal Veil",
+        "category": "",
+        "price": "₹35,000",
+        "image": "images/bridal/ethereal-bridal-veil.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Ethereal Veil",
+        "layout": {
+            "colSpan": "lg:col-span-6",
+            "aspectRatio": "aspect-[16/9]",
+            "buttonType": "full-width",
+            "overlayClasses": "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Signature Atelier Motif",
+        "category": "",
+        "price": "₹18,999",
+        "image": "images/embroidery/signature-atelier-motif.jpg",
+        "whatsappLink": "https://wa.me/919059582220?text=Interested in Atelier Motif Signature",
+        "layout": {
+            "colSpan": "lg:col-span-6",
+            "aspectRatio": "aspect-[16/9]",
+            "buttonType": "full-width",
+            "overlayClasses": "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
+        }
+    }
+]
