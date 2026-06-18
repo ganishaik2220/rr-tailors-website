@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="dark" lang="en" style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>RR BLOUSE BOUTIQUE | Bespoke Embroidery &amp; Couture Catalog</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&amp;family=Hanken+Grotesk:wght@100..900&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#f2ca50",
+                        "on-primary": "#3c2f00",
+                        "background": "#131313",
+                        "on-background": "#e5e2e1",
+                        "surface": "#131313",
+                        "on-surface": "#e5e2e1",
+                        "surface-container": "#201f1f",
+                        "surface-container-high": "#2a2a2a",
+                        "surface-container-low": "#1c1b1b",
+                        "surface-container-lowest": "#0e0e0e",
+                        "on-surface-variant": "#d0c5af",
+                        "outline-variant": "#4d4635",
+                        "primary-fixed-dim": "#e9c349",
+                        "primary-container": "#d4af37"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "clamp(16px, 3vw, 24px)",
+                        "container-max": "1440px",
+                        "grid-margin": "clamp(16px, 5vw, 64px)",
+                        "base": "clamp(4px, 1vw, 8px)",
+                        "section-gap": "clamp(60px, 10vw, 120px)"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Bodoni Moda"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-caps": ["Hanken Grotesk"],
+                        "headline-lg": ["Bodoni Moda"],
+                        "display-xl": ["Bodoni Moda"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-md": ["Bodoni Moda"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["clamp(1.5rem, 5vw, 2rem)", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "body-md": ["clamp(0.875rem, 1.5vw, 1rem)", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "label-caps": ["clamp(0.65rem, 1.5vw, 0.75rem)", { "lineHeight": "1.2", "letterSpacing": "0.15em", "fontWeight": "600" }],
+                        "headline-lg": ["clamp(2rem, 5vw, 3rem)", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "display-xl": ["clamp(2.5rem, 8vw, 5rem)", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["clamp(1rem, 2vw, 1.125rem)", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["clamp(1.5rem, 4vw, 2rem)", { "lineHeight": "1.3", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body
+    class="text-on-background selection:bg-primary selection:text-on-primary overflow-x-hidden relative max-w-[100vw]">
+    <div class="ambient-glow"></div>
+    <div class="luxury-beam" style="animation-delay: -2s;"></div>
+    <div class="luxury-beam" style="animation-delay: -8s; left: 40%;"></div>
+    <canvas id="particle-canvas" width="1280" height="6313"></canvas>
+    <div class="custom-cursor hidden md:block" id="cursor" style="left: 1095px; top: 4561px;"></div>
+    <div class="custom-cursor-outline hidden md:block" id="cursor-outline" style="left: 1079px; top: 4545px;"></div>
+    <!-- Navigation -->
+    <nav
+        class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-3xl no-border-lines bg-gradient-to-b from-surface/60 to-transparent">
+        <div
+            class="flex flex-wrap justify-between items-center px-grid-margin py-base w-full max-w-container-max mx-auto gap-y-4 gap-x-2">
+            <div class="flex flex-col items-center justify-center text-center font-headline-md text-headline-md tracking-tighter text-primary whitespace-nowrap leading-tight">
+                <span class="tracking-widest block text-[clamp(1rem,3vw,1.5rem)]">BLOUSE BOUTIQUE</span>
+                <span class="tracking-widest block mt-0.5 text-[clamp(1rem,3vw,1.5rem)]">RR</span>
+            </div>
+            <div class="hidden md:flex gap-10 items-center">
+                <a class="font-label-caps text-label-caps text-primary border-b-2 border-primary pb-1 hover:text-primary transition-colors duration-500"
+                    href="#collections">MAIN</a>
+
+            </div>
+            <div class="flex items-center gap-3 sm:gap-6 ml-auto sm:ml-0">
+                <a href="tel:+919059582220"
+                    class="flex items-center gap-1 md:gap-2 font-label-caps text-label-caps text-primary hover:opacity-80 transition-opacity">
+                    <span class="material-symbols-outlined text-sm">call</span>
+                    <span class="hidden sm:inline">Call Now: +91 9059582220</span>
+                    <span class="sm:hidden text-[10px]">Call</span>
+                </a>
+
+                <button class="material-symbols-outlined text-primary text-sm sm:text-base hidden sm:block"
+                    data-icon="shopping_bag">shopping_bag</button>
+
+                <a href="https://www.instagram.com/ladies_tril?igsh=NjJta3EwdHlhcDEy" target="_blank" rel="noopener noreferrer"
+                    class="bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white px-3 sm:px-8 py-1.5 md:py-2 font-label-caps text-label-caps uppercase hover:scale-105 active:scale-95 transition-all shadow-[0_0_15px_rgba(220,39,67,0.4)] flex items-center gap-1 md:gap-2 rounded-sm">
+                    <svg class="w-3 h-3 sm:w-4 sm:h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                    </svg>
+                    <span class="hidden sm:inline">Instagram</span>
+                    <span class="sm:hidden text-[10px]">Insta</span>
+                </a>
+
+                <a href="https://wa.me/919059582220" target="_blank" rel="noopener noreferrer"
+                    class="bg-[#25D366] text-white px-3 sm:px-8 py-1.5 md:py-2 font-label-caps text-label-caps uppercase hover:scale-105 active:scale-95 transition-all shadow-[0_0_15px_rgba(37,211,102,0.4)] flex items-center gap-1 md:gap-2 rounded-sm">
+                    <svg class="w-3 h-3 sm:w-4 sm:h-4 fill-current" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z">
+                        </path>
+                    </svg>
+                    <span class="hidden sm:inline">Chat on WhatsApp</span>
+                    <span class="sm:hidden text-[10px]">Chat</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="relative h-screen w-full flex items-center justify-center overflow-hidden z-10" id="hero-section">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-background z-10"></div>
+        <canvas id="animated-header-canvas"
+            class="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-screen"></canvas>
+        <div class="relative z-20 text-center px-grid-margin">
+            <h1 class="flex flex-col items-center justify-center text-center font-display-xl text-display-xl text-balance text-primary mb-8 tracking-tighter hero-glitter-active">
+                <span class="tracking-widest block text-[clamp(2.5rem,8vw,5rem)] leading-tight">BLOUSE BOUTIQUE</span>
+                <span class="tracking-widest block text-[clamp(2.5rem,8vw,5rem)] leading-tight mt-2">RR</span>
+            </h1>
+            <p
+                class="scroll-reveal font-body-lg text-body-lg max-w-2xl mx-auto text-on-surface-variant/90 drop-shadow-lg visible">
+                Crafting timeless narratives through every stitch. Experience the pinnacle of bespoke Aari and Maggam
+                embroidery in our private atelier.
+            </p>
+        </div>
+        <div class="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 animate-bounce">
+            <span
+                class="material-symbols-outlined text-primary text-4xl opacity-50 hover:opacity-100 transition-opacity"
+                data-icon="expand_more">expand_more</span>
+        </div>
+    </header>
+    <!-- Curated Collections Section -->
+    <section class="py-section-gap px-grid-margin max-w-container-max mx-auto relative z-10" id="collections">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+            <div class="scroll-reveal visible">
+                <span class="font-label-caps text-label-caps text-primary uppercase tracking-[0.3em] block mb-4">The
+                    Curated Gallery</span>
+                <h2 class="font-headline-lg text-headline-lg text-on-surface">Premium Featured Designs</h2>
+            </div>
+            <p class="scroll-reveal font-body-md text-body-md text-on-surface-variant max-w-md visible">
+                Our selection is meticulously curated to showcase the zenith of traditional craftsmanship and
+                contemporary elegance.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-x-gutter gap-y-12 md:gap-y-24"
+            id="dynamic-product-grid"></div>
+        <div class="mt-24 text-center scroll-reveal visible">
+            <button type="button" id="explore-catalog-btn"
+                class="bg-transparent border border-primary/30 text-on-surface px-16 py-5 font-label-caps text-label-caps uppercase hover:bg-primary hover:text-on-primary hover:border-primary transition-all relative group overflow-hidden cursor-pointer z-50">
+                <span class="relative z-10 pointer-events-none">Explore Full Catalog</span>
+                <div
+                    class="absolute inset-0 bg-primary translate-y-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-500 pointer-events-none">
+                </div>
+            </button>
+        </div>
+    </section>
+    <!-- Masterpieces Section -->
+    <section class="py-section-gap px-grid-margin max-w-container-max mx-auto relative z-10" id="masterpieces">
+        <div class="text-center mb-24">
+            <span class="font-label-caps text-label-caps text-primary uppercase tracking-[0.5em] block mb-6">the art of
+                every stich</span>
+            <h2 class="flex flex-col items-center justify-center text-center font-display-xl text-4xl md:text-display-xl text-on-surface max-w-4xl mx-auto leading-tight">
+                <span class="tracking-widest block text-[clamp(1.5rem,5vw,3rem)]">BLOUSE BOUTIQUE</span>
+                <span class="tracking-widest block mt-1 text-[clamp(1.5rem,5vw,3rem)]">RR</span>
+            </h2>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+            <div class="scroll-reveal relative group visible">
+                <div
+                    class="absolute -top-10 -left-10 w-40 h-40 border-l border-t border-primary/30 z-0 group-hover:border-primary transition-colors duration-700">
+                </div>
+                <div class="relative z-10 aspect-[4/5] bg-surface-container-high overflow-hidden shadow-2xl">
+                    <img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-105"
+                        data-alt="A dramatic portrait of a model wearing a RR BLOUSE BOUTIQUE masterpiece."
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoJ8jtI-Pevy8bqilgratNI4Ii-A0T38fbhVWQhBZC_kYWZlDiGaVxOR7SAY6Fz9CvApq-yycVBdxvGkKuC_POWtXd4uDRoc9VgidHVvlLEZjuycMRweE16sfK4BKx8_X6mGZjVhYrGg5suEQ9Crivfaa069UfwJVyJsC20pQFZzhgvfNmvRefZdRUzL_NjZDs6YHP_6UIIhV1GCaG6SkdLypdpziH9ybNHvDSZ4-oBUKUwNLYXHd6MQdcaNMw8R0XzG8iYgZrFA" loading="lazy">
+                </div>
+            </div>
+            <div class="scroll-reveal space-y-10 visible">
+                <div class="space-y-4">
+                    <h3 class="font-headline-lg text-headline-lg text-primary">MAGGAM WORK</h3>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    </p>
+                    <p class="">Premium Maggam Work crafted using specialized embroidery machines for precise detailing,
+                        elegant patterns, and superior finishing. Perfect for bridal wear, designer blouses, and custom
+                        embroidery creations.</p>
+                    <p></p>
+                </div>
+                <div class="grid grid-cols-2 gap-8">
+                    <a href="https://maps.app.goo.gl/pNEmymCdjjGYLcpM8?g_st=iw" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-start cursor-pointer">
+                        <span class="material-symbols-outlined text-primary text-[40px] mb-3 group-hover:scale-110 transition-transform duration-300">location_on</span>
+                        <span class="font-headline-md text-headline-md text-on-surface block mb-2">Our Location</span>
+                        <span class="font-label-caps text-label-caps text-primary uppercase">Devarapalli, AP</span>
+                    </a>
+                    <a href="https://wa.me/919059582220" target="_blank" rel="noopener noreferrer" class="group flex flex-col items-start cursor-pointer">
+                        <svg class="w-10 h-10 mb-3 fill-primary group-hover:scale-110 transition-transform duration-300" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+                        </svg>
+                        <span class="font-headline-md text-headline-md text-on-surface block mb-2">WhatsApp Us</span>
+                        <span class="font-label-caps text-label-caps text-primary uppercase">9059582220</span>
+                    </a>
+                </div>
+                <button
+                    class="bg-transparent border border-primary text-primary px-12 py-5 font-label-caps text-label-caps uppercase hover:bg-primary hover:text-on-primary transition-all group overflow-hidden relative shadow-[0_0_20px_rgba(242,202,80,0.1)]">
+                    <span class="relative z-10">Request Private Inquiry</span>
+                    <div
+                        class="absolute inset-0 bg-primary translate-y-0 md:translate-y-full md:group-hover:translate-y-0 transition-transform duration-300">
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="py-section-gap px-grid-margin bg-surface-container-lowest relative z-10" id="testimonials">
+        <div class="max-w-container-max mx-auto">
+            <h2 class="font-headline-lg text-headline-lg text-center mb-24 text-on-surface">Our Excellence</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div
+                    class="scroll-reveal p-12 border border-outline-variant/30 relative overflow-hidden group hover:border-primary/40 transition-colors visible">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 text-primary">
+                        <span class="material-symbols-outlined text-6xl" data-icon="format_quote">format_quote</span>
+                    </div>
+                    <p class="font-body-md text-body-md text-on-surface-variant mb-8 italic relative z-10">
+                        "The level of detail in my bridal blouse was beyond anything I've seen in Milan or Paris. RR
+                        BLOUSE BOUTIQUE doesn't just sew; they create heirlooms."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 border border-primary/30"></div>
+                        <div>
+                            <span class="font-label-caps text-label-caps text-on-surface block">aruna.k</span>
+                            <span class="text-[10px] text-primary uppercase tracking-widest">Bridal Client</span>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 h-1 bg-primary w-0 group-hover:w-full transition-all duration-700">
+                    </div>
+                </div>
+                <div
+                    class="scroll-reveal p-12 border border-outline-variant/30 relative overflow-hidden group hover:border-primary/40 transition-colors visible">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 text-primary">
+                        <span class="material-symbols-outlined text-6xl" data-icon="format_quote">format_quote</span>
+                    </div>
+                    <p class="font-body-md text-body-md text-on-surface-variant mb-8 italic relative z-10">
+                        "The craftsmanship of the Aari embroidery is legendary. Each stitch feels deliberate and
+                        perfect. A truly bespoke experience."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 border border-primary/30"></div>
+                        <div>
+                            <span class="font-label-caps text-label-caps text-on-surface block">reshma.sk</span>
+                            <span class="text-[10px] text-primary uppercase tracking-widest">Collector</span>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 h-1 bg-primary w-0 group-hover:w-full transition-all duration-700">
+                    </div>
+                </div>
+                <div
+                    class="scroll-reveal p-12 border border-outline-variant/30 relative overflow-hidden group hover:border-primary/40 transition-colors visible">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 text-primary">
+                        <span class="material-symbols-outlined text-6xl" data-icon="format_quote">format_quote</span>
+                    </div>
+                    <p class="font-body-md text-body-md text-on-surface-variant mb-8 italic relative z-10">
+                        "Incredible attention to detail. The team at RR BLOUSE BOUTIQUE understood exactly what I wanted and
+                        delivered a piece that exceeded all expectations."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-primary/20 border border-primary/30"></div>
+                        <div>
+                            <span class="font-label-caps text-label-caps text-on-surface block">nagalashmi.N</span>
+                            <span class="text-[10px] text-primary uppercase tracking-widest">Couture Client</span>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute bottom-0 left-0 h-1 bg-primary w-0 group-hover:w-full transition-all duration-700">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Premium Luxury Catalog -->
+    <section id="full-catalog"
+        class="hidden opacity-0 transition-opacity duration-1000 py-section-gap px-grid-margin max-w-container-max mx-auto relative z-10">
+        <div class="text-center mb-24">
+            <span class="font-label-caps text-label-caps text-primary uppercase tracking-[0.5em] block mb-6">Explore
+                the</span>
+            <h2 class="flex flex-col items-center justify-center text-center font-display-xl text-[clamp(1.8rem,5vw,3.5rem)] text-primary hero-glitter-active max-w-4xl mx-auto leading-tight">
+                <span class="tracking-widest block">BLOUSE BOUTIQUE</span>
+                <span class="tracking-widest block mt-1">RR</span>
+                <span class="text-[clamp(1rem,2vw,1.5rem)] mt-4 tracking-[0.2em] uppercase font-label-caps">Signature Collection</span>
+            </h2>
+        </div>
+
+        <div class="mb-32">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+                <div class="scroll-reveal">
+                    <span
+                        class="font-label-caps text-label-caps text-primary uppercase tracking-[0.3em] block mb-4">Section
+                        1</span>
+                    <h2 class="font-headline-lg text-[clamp(1.5rem,4vw,2.5rem)] text-on-surface">Embroidery Designs
+                        Collection</h2>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 md:gap-12"
+                id="embroidery-catalog-grid">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+
+        <div>
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+                <div class="scroll-reveal">
+                    <span
+                        class="font-label-caps text-label-caps text-primary uppercase tracking-[0.3em] block mb-4">Section
+                        2</span>
+                    <h2 class="font-headline-lg text-[clamp(1.5rem,4vw,2.5rem)] text-on-surface">Maggam Work Collection
+                    </h2>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 md:gap-12"
+                id="maggam-catalog-grid">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+        class="relative w-full py-section-gap overflow-hidden bg-surface-container-lowest no-border-lines inner-glow-gold z-10 pb-40 md:pb-16"
+        id="footer-section">
+        <div class="flex flex-col items-center gap-12 text-center w-full px-grid-margin relative z-10">
+            <div class="flex flex-col items-center justify-center text-center font-headline-lg text-headline-lg text-primary uppercase tracking-[0.5em] hero-glitter-active leading-tight">
+                <span class="tracking-widest block text-[clamp(1.5rem,4vw,2.5rem)]">BLOUSE BOUTIQUE</span>
+                <span class="tracking-widest block mt-1 text-[clamp(1.5rem,4vw,2.5rem)]">RR</span>
+            </div>
+            <div class="w-full h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent my-4 max-w-4xl">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 w-full max-w-container-max text-left">
+                <div class="space-y-4">
+                    <h5 class="font-label-caps text-label-caps text-primary">The Atelier</h5>
+                    <p class="font-body-md text-body-md text-on-surface-variant/70 leading-relaxed">Devarapalli, West
+                        Godavari District,<br data-start="159" data-end="162">
+                        Andhra Pradesh – 534313, India.</p>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-label-caps text-label-caps text-primary">Connect</h5>
+                    <div class="flex flex-col gap-2">
+                        <a class="font-body-md text-body-md text-on-surface-variant/70 hover:text-primary transition-all duration-500"
+                            href="https://www.instagram.com/ladies_tril?igsh=bHJqaGFtdmdzOHg4" target="_blank"
+                            rel="noopener noreferrer">Instagram</a>
+                        <a class="font-body-md text-body-md text-on-surface-variant/70 hover:text-primary transition-all duration-500"
+                            href="https://wa.me/919059582220" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-label-caps text-label-caps text-primary">Quick Links</h5>
+                    <div class="flex flex-col gap-2">
+                        <a class="font-body-md text-body-md text-on-surface-variant/70 hover:text-primary transition-all duration-500"
+                            href="#">Private Inquiry</a>
+                        <a class="font-body-md text-body-md text-on-surface-variant/70 hover:text-primary transition-all duration-500"
+                            href="#">Shipping</a>
+                        <a class="font-body-md text-body-md text-on-surface-variant/70 hover:text-primary transition-all duration-500"
+                            href="#">Privacy Policy</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-20">
+                <p class="font-body-md text-body-md text-on-surface-variant/50 uppercase tracking-[0.3em] text-xs">©
+                    2024 RR BLOUSE BOUTIQUE. BESPOKE EMBROIDERY. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    \n
+    <!-- Dynamic Product Renderer -->
+    
+    \n
+    <!-- Floating Circular Action Buttons -->
+    <div class="fixed bottom-6 right-6 md:right-8 z-[9999] flex flex-col gap-4">
+        <!-- Floating Google Maps Button -->
+        <a href="https://maps.app.goo.gl/pNEmymCdjjGYLcpM8?g_st=iw" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="bg-[#4285F4] text-white w-14 h-14 md:w-16 md:h-16 rounded-full shadow-[0_0_20px_rgba(66,133,244,0.4)] hover:shadow-[0_0_30px_rgba(66,133,244,0.7)] hover:-translate-y-1 transition-all duration-300 flex items-center justify-center group relative">
+            <div class="absolute inset-0 rounded-full animate-ping bg-[#4285F4] opacity-40"></div>
+            <span class="material-symbols-outlined text-3xl md:text-4xl relative z-10">location_on</span>
+        </a>
+
+        <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/919059582220" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="bg-[#25D366] text-white w-14 h-14 md:w-16 md:h-16 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.4)] hover:shadow-[0_0_30px_rgba(37,211,102,0.7)] hover:-translate-y-1 transition-all duration-300 flex items-center justify-center group relative">
+            <div class="absolute inset-0 rounded-full animate-ping bg-[#25D366] opacity-40"></div>
+            <svg class="w-8 h-8 md:w-9 md:h-9 relative z-10 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+            </svg>
+        </a>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
