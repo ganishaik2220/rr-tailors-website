@@ -1,0 +1,186 @@
+{
+  "embroidery": [
+    {
+      "name": "Royal Peacock Embroidery",
+      "price": "₹8,999",
+      "images": [
+        "images/embroidery/royal-peacock.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Bridal Floral Embroidery",
+      "price": "₹12,499",
+      "images": [
+        "images/embroidery/bridal-floral.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Luxury Mirror Thread Work",
+      "price": "₹9,999",
+      "images": [
+        "images/embroidery/luxury-mirror.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Golden Lotus Design",
+      "price": "₹15,000",
+      "images": [
+        "images/embroidery/golden-lotus.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Traditional Temple Embroidery",
+      "price": "₹11,500",
+      "images": [
+        "images/embroidery/traditional-temple.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Velvet Bridal Embroidery",
+      "price": "₹18,999",
+      "images": [
+        "images/embroidery/velvet-bridal.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Designer Sleeve Embroidery",
+      "price": "₹6,500",
+      "images": [
+        "images/embroidery/designer-sleeve.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Heritage Zardosi Work",
+      "price": "₹22,000",
+      "images": [
+        "images/embroidery/heritage-zardosi.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Premium Neck Embroidery",
+      "price": "₹7,999",
+      "images": [
+        "images/embroidery/premium-neck.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    },
+    {
+      "name": "Wedding Collection Embroidery",
+      "price": "₹25,000",
+      "images": [
+        "images/embroidery/wedding-collection.jpg",
+        "images/embroidery/artisan-swatches.jpg",
+        "images/embroidery/champagne-twist.jpg"
+      ]
+    }
+  ],
+  "maggam": [
+    {
+      "name": "Bridal Maggam Masterpiece",
+      "price": "₹12,999",
+      "images": [
+        "images/maggam/bridal-maggam.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Royal Stone Work",
+      "price": "₹14,500",
+      "images": [
+        "images/maggam/royal-stone.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Peacock Maggam Design",
+      "price": "₹9,500",
+      "images": [
+        "images/maggam/peacock-maggam.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Traditional Bridal Maggam",
+      "price": "₹16,000",
+      "images": [
+        "images/maggam/traditional-bridal-maggam.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Heavy Wedding Maggam",
+      "price": "₹28,000",
+      "images": [
+        "images/maggam/heavy-wedding.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Luxury Handcrafted Maggam",
+      "price": "₹19,999",
+      "images": [
+        "images/maggam/luxury-handcrafted.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Premium Silk Maggam",
+      "price": "₹11,000",
+      "images": [
+        "images/maggam/premium-silk.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Designer Blouse Maggam",
+      "price": "₹8,500",
+      "images": [
+        "images/maggam/designer-blouse.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Temple Jewelry Maggam",
+      "price": "₹21,000",
+      "images": [
+        "images/maggam/temple-jewelry.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    },
+    {
+      "name": "Grand Bridal Collection",
+      "price": "₹35,000",
+      "images": [
+        "images/maggam/grand-bridal.jpg",
+        "images/maggam/royal-peacock.jpg",
+        "images/maggam/velvet-maggam.jpg"
+      ]
+    }
+  ]
+}
