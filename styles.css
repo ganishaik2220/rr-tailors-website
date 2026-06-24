@@ -1,0 +1,195 @@
+@keyframes shimmer {
+            0% {
+                background-position: -200% 0;
+            }
+
+            100% {
+                background-position: 200% 0;
+            }
+        }
+
+        @keyframes background-shift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes ambient-shimmer {
+
+            0%,
+            100% {
+                opacity: 0.15;
+            }
+
+            50% {
+                opacity: 0.35;
+            }
+        }
+
+        @keyframes streak-move {
+            0% {
+                transform: translate(-100%, -100%) rotate(45deg);
+            }
+
+            100% {
+                transform: translate(100%, 100%) rotate(45deg);
+            }
+        }
+
+        @keyframes beam-sweep {
+            0% {
+                transform: translateX(-100%) skewX(-15deg);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+
+            100% {
+                transform: translateX(200%) skewX(-15deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes gold-pulse {
+
+            0%,
+            100% {
+                text-shadow: 0 0 10px rgba(242, 202, 80, 0.2);
+            }
+
+            50% {
+                text-shadow: 0 0 25px rgba(242, 202, 80, 0.6), 0 0 50px rgba(242, 202, 80, 0.2);
+            }
+        }
+
+        .shimmer-gold {
+            background: linear-gradient(90deg, transparent, rgba(242, 202, 80, 0.2), transparent);
+            background-size: 200% 100%;
+            animation: shimmer 3s infinite linear;
+        }
+
+        .inner-glow-gold {
+            box-shadow: inset 0 0 60px rgba(242, 202, 80, 0.15);
+        }
+
+        .reveal-char {
+            opacity: 0;
+            display: inline-block;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease, transform 0.3s ease; will-change: transform, opacity; transform: translateZ(0);
+        }
+
+        .reveal-char.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(20px); will-change: transform, opacity;
+            transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .scroll-reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .glass-panel {
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+        }
+
+        .custom-cursor {
+            width: 8px;
+            height: 8px;
+            background: #f2ca50;
+            border-radius: 50%;
+            position: fixed;
+            pointer-events: none;
+            z-index: 9999;
+            transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .custom-cursor-outline {
+            width: 40px;
+            height: 40px;
+            border: 1px solid rgba(242, 202, 80, 0.4);
+            border-radius: 50%;
+            position: fixed;
+            pointer-events: none;
+            z-index: 9998;
+            transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), left 0.1s linear, top 0.1s linear;
+        }
+
+        body {
+            background: #0e0e0e;
+            background: linear-gradient(-45deg, #0e0e0e, #131313, #1c1b1b, #131313);
+            background-size: 400% 400%;
+            animation: background-shift 20s ease infinite;
+        }
+
+        .ambient-glow {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background: radial-gradient(circle at 50% 50%, rgba(242, 202, 80, 0.05) 0%, transparent 80%);
+            animation: ambient-shimmer 12s ease-in-out infinite;
+            z-index: 1;
+        }
+
+        .luxury-beam {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 30vw;
+            height: 100vh;
+            background: linear-gradient(90deg, transparent, rgba(242, 202, 80, 0.03), transparent);
+            pointer-events: none;
+            z-index: 1;
+            animation: beam-sweep 15s infinite ease-in-out;
+        }
+
+        .luxury-card {
+            will-change: transform, box-shadow;
+            transform: translateZ(0);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+
+        .luxury-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 25px rgba(242, 202, 80, 0.15);
+        }
+
+        .luxury-card .img-zoom {
+            transition: transform 1.2s cubic-bezier(0.2, 0, 0.2, 1);
+        }
+
+        .luxury-card:hover .img-zoom {
+            transform: scale(1.15);
+        }
+
+        .hero-glitter-active {
+            animation: gold-pulse 4s infinite ease-in-out;
+        }
+
+        #particle-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 2;
+        }
