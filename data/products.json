@@ -1,10 +1,10 @@
 [
     {
         "id":  1,
-        "name":  "Imperial Crimson Bridal",
-        "category":  "Exquisite Zardosi\n                            embroidery on rich crimson silk.",
-        "price":  "₹1,45,000",
-        "whatsappLink":  "https://wa.me/919059582220?text=Interested in Imperial Crimson Bridal",
+        "name":  "Bridal design",
+        "category":  "Exquisite Zardosi\n                            embroidery on rich blue silk.",
+        "price":  "₹1200",
+        "whatsappLink":  "https://wa.me/919059582220?text=Interested in blue design",
         "layout":  {
                        "colSpan":  "lg:col-span-8",
                        "aspectRatio":  "aspect-[16/10]",
