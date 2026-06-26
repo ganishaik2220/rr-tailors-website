@@ -2,10 +2,6 @@
 
 A modern and elegant website for **RR Blouse Boutique**, showcasing premium embroidery, maggam work, and custom blouse stitching services.
 
-![Website Preview](assets/preview.jpg)
-
----
-
 ## ✨ Features
 
 - 🎨 Luxury and modern UI
