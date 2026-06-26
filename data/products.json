@@ -21,7 +21,7 @@
         "id":  2,
         "name":  "new design",
         "category":  "Signature black-on-black Aari work.",
-        "price":  "₹85,000",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Midnight Onyx",
         "layout":  {
                        "colSpan":  "lg:col-span-4",
@@ -30,16 +30,16 @@
                        "overlayClasses":  "absolute inset-0 bg-black/20 md:bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6"
                    },
         "images":  [
-                       "products/embroidery-designs/buty.png",
-                       "products/embroidery-designs/buty2.jpg",
-                       "products/embroidery-designs/buty3.jpg"
+                       "products/bridal-collection/buty.png",
+                       "products/bridal-collection/buty2.jpeg",
+                       "products/bridal-collection/buty3.jpeg"
                    ]
     },
     {
         "id":  3,
-        "name":  "Velvet Maggam",
+        "name":  "new design",
         "category":  "24k gold thread \u0026 crystals.",
-        "price":  "₹12,499",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Velvet Maggam Blouse",
         "layout":  {
                        "colSpan":  "lg:col-span-4",
@@ -48,16 +48,16 @@
                        "overlayClasses":  "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
                    },
         "images":  [
-                       "products/maggam-work/royal-peacock.jpg",
-                       "products/maggam-work/velvet-maggam.jpg",
-                       "products/maggam-work/royal-peacock.jpg"
+                       "products/bridal-collection/dblu.png",
+                       "products/bridal-collection/dblu2.jpg",
+                       "products/bridal-collection/dblu3.jpeg"
                    ]
     },
     {
         "id":  4,
-        "name":  "Emerald Aari",
+        "name":  "new design",
         "category":  "Intricate floral silk patterns.",
-        "price":  "₹9,999",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Emerald Floral Aari",
         "layout":  {
                        "colSpan":  "lg:col-span-4",
@@ -66,16 +66,16 @@
                        "overlayClasses":  "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
                    },
         "images":  [
-                       "products/embroidery-designs/artisan-swatches.jpg",
-                       "products/embroidery-designs/champagne-twist.jpg",
-                       "products/embroidery-designs/emerald-aari.jpg"
+                       "products/bridal-collection/dgold.png",
+                       "products/bridal-collection/dgold2.jpg",
+                       "products/bridal-collection/dgold3.jpg"
                    ]
     },
     {
         "id":  5,
-        "name":  "Champagne Twist",
+        "name":  "new design",
         "category":  "Modern motifs on luxury velvet.",
-        "price":  "₹15,499",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Avant-Garde Zardosi",
         "layout":  {
                        "colSpan":  "lg:col-span-4",
@@ -84,16 +84,16 @@
                        "overlayClasses":  "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
                    },
         "images":  [
-                       "products/embroidery-designs/artisan-swatches.jpg",
-                       "products/embroidery-designs/champagne-twist.jpg",
-                       "products/embroidery-designs/emerald-aari.jpg"
+                       "products/bridal-collection/flower.png",
+                       "products/bridal-collection/flower2.jpg",
+                       "products/bridal-collection/flower3.png"
                    ]
     },
     {
         "id":  6,
-        "name":  "Artisan Swatches",
+        "name":  "new design",
         "category":  "Custom Sample",
-        "price":  "₹4,500",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Couture Swatches",
         "layout":  {
                        "colSpan":  "lg:col-span-3",
@@ -102,16 +102,16 @@
                        "overlayClasses":  "absolute bottom-0 left-0 right-0 bg-primary/90 text-on-primary py-2 px-4 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"
                    },
         "images":  [
-                       "products/embroidery-designs/artisan-swatches.jpg",
-                       "products/embroidery-designs/champagne-twist.jpg",
-                       "products/embroidery-designs/emerald-aari.jpg"
+                       "products/bridal-collection/gold.png",
+                       "products/bridal-collection/gold2.jpeg",
+                       "products/bridal-collection/gold3.jpeg"
                    ]
     },
     {
         "id":  7,
-        "name":  "Royal Peacock",
+        "name":  "new design",
         "category":  "Maggam Work",
-        "price":  "₹5,499",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Royal Peacock Maggam",
         "layout":  {
                        "colSpan":  "lg:col-span-3",
@@ -120,16 +120,16 @@
                        "overlayClasses":  "absolute bottom-0 left-0 right-0 bg-primary/90 text-on-primary py-2 px-4 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"
                    },
         "images":  [
-                       "products/maggam-work/royal-peacock.jpg",
-                       "products/maggam-work/velvet-maggam.jpg",
-                       "products/maggam-work/royal-peacock.jpg"
+                       "products/bridal-collection/ltgree.png",
+                       "products/bridal-collection/itgree2.jpg",
+                       "products/bridal-collection/itgree3.jpeg"
                    ]
     },
     {
         "id":  8,
-        "name":  "Heritage Zardosi",
+        "name":  "new design",
         "category":  "Heritage",
-        "price":  "₹7,899",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Traditional Zardosi",
         "layout":  {
                        "colSpan":  "lg:col-span-3",
@@ -138,16 +138,16 @@
                        "overlayClasses":  "absolute bottom-0 left-0 right-0 bg-primary/90 text-on-primary py-2 px-4 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"
                    },
         "images":  [
-                       "products/embroidery-designs/artisan-swatches.jpg",
-                       "products/embroidery-designs/champagne-twist.jpg",
-                       "products/embroidery-designs/emerald-aari.jpg"
+                       "products/bridal-collection/ltppl.png",
+                       "products/bridal-collection/itppl2.png",
+                       "products/bridal-collection/itppl3.png"
                    ]
     },
     {
         "id":  9,
-        "name":  "Lunar Geometric",
+        "name":  "new design",
         "category":  "Aari Series",
-        "price":  "₹6,499",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Lunar Silver Aari",
         "layout":  {
                        "colSpan":  "lg:col-span-3",
@@ -156,16 +156,16 @@
                        "overlayClasses":  "absolute bottom-0 left-0 right-0 bg-primary/90 text-on-primary py-2 px-4 translate-y-full group-hover:translate-y-0 transition-transform cursor-pointer"
                    },
         "images":  [
-                       "products/embroidery-designs/artisan-swatches.jpg",
-                       "products/embroidery-designs/champagne-twist.jpg",
-                       "products/embroidery-designs/emerald-aari.jpg"
+                       "products/bridal-collection/orng.png",
+                       "products/bridal-collection/orng2.png",
+                       "products/bridal-collection/orng3.jpg"
                    ]
     },
     {
         "id":  10,
-        "name":  "Ethereal Bridal Veil",
+        "name":  "new design",
         "category":  "",
-        "price":  "₹35,000",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Ethereal Veil",
         "layout":  {
                        "colSpan":  "lg:col-span-6",
@@ -174,16 +174,16 @@
                        "overlayClasses":  "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
                    },
         "images":  [
-                       "products/bridal-collection/ethereal-bridal-veil.jpg",
-                       "products/bridal-collection/imperial-crimson-bridal-2.jpg",
-                       "products/bridal-collection/imperial-crimson-bridal-3.jpg"
+                       "products/bridal-collection/pink.png",
+                       "products/bridal-collection/pink2.jpeg",
+                       "products/bridal-collection/pink3.jpeg"
                    ]
     },
     {
         "id":  11,
-        "name":  "Signature Atelier Motif",
+        "name":  "new design",
         "category":  "",
-        "price":  "₹18,999",
+        "price":  "₹1200",
         "whatsappLink":  "https://wa.me/919059582220?text=Interested in Atelier Motif Signature",
         "layout":  {
                        "colSpan":  "lg:col-span-6",
@@ -192,9 +192,9 @@
                        "overlayClasses":  "absolute inset-0 bg-black/30 md:bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center p-8 text-center"
                    },
         "images":  [
-                       "products/embroidery-designs/artisan-swatches.jpg",
-                       "products/embroidery-designs/champagne-twist.jpg",
-                       "products/embroidery-designs/emerald-aari.jpg"
+                       "products/bridal-collection/ppl.png",
+                       "products/bridal-collection/ppi2.jpeg",
+                       "products/bridal-collection/ppl3.jpeg"
                    ]
     }
 ]
